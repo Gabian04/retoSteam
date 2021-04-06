@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'retoSteam.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'stemreto',
-        'USER': 'stemreto',
-        'PASSWORD': ‘elPassw0rd',
+        'NAME': 'SteamReto',
+        'USER': 'A01658280',
+        'PASSWORD': 'Gilgamesh04-',
         'HOST': 'localhost',
         'PORT': '5432',
     }
