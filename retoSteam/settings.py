@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'retoSteam.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'SteamReto',
+        'NAME': 'steam',
         'USER': 'A01658280',
         'PASSWORD': 'Gilgamesh04-',
         'HOST': 'localhost',
@@ -128,3 +128,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staicfiles')
